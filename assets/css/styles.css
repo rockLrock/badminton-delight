@@ -1,8 +1,44 @@
 
+
+
+
+
 /* hero section */
 #hero {
-    height: 600px;
+    height: 1500px;
     width: 100%;
-    background: url("../images/muktasim-azlan-rjWfNR_AC5g-unsplash.jpg") no-repeat center center/cover;
+    background: url("../images/irish83-sxwRpLJTuXc-unsplash.jpg") no-repeat center center/cover;
     position: relative;
+}
+
+#cover-text {
+    /*final rgba value sets the opacity so it is semi-transparent.*/
+    /*background-color: rgba(241, 109, 107, 0.7);*/
+    font-size: 130%;
+    position: absolute;
+    bottom: 30px;
+    width: 100%;
+    min-height: 200px;
+    padding-top: 40px;
+    padding-right: 20px;
+    text-align: end;
+}
+
+#cover-text > h2, #cover-text > h3 {
+    color: #ffffff;
+}
+
+/*footer*/
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #3a3a3a;
 }
