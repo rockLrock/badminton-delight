@@ -1,0 +1,8 @@
+
+/* hero section */
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url("../images/muktasim-azlan-rjWfNR_AC5g-unsplash.jpg") no-repeat center center/cover;
+    position: relative;
+}
