@@ -1,7 +1,14 @@
 
 
 
-
+/* header */
+header {
+    background image: url("../images/pexels-pixabay-207456.jpg") no-repeat center center/cover;
+   
+    padding: 60px 0;
+    text-align: center;
+}
+  
 
 /* hero section */
 #hero {
