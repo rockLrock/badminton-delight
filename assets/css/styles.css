@@ -1,3 +1,38 @@
+/* Google Fonts Import */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Macondo&display=swap');
+
+/* css variables */
+:root
+
+#777B82
+#3E3E42
+#35393C
+#254740
+
+/* main contianer to hold navbar*/
+.main-container {
+    padding-top: 70px;
+}
+
+/*weird horizontal scroll on index fix*/
+html, body {
+  overflow-x: hidden;
+}
+
+/* navitem hover effect */
+.nav-item:hover {
+    background-color: #f16d6b;
+    color: white;
+    border-radius: 5px;
+}
+
+
+/* footer hover effect */
+#social-networks i:hover {
+    color: #f16d6b;
+    transform: scale(1.2);
+    transition: all 0.3s ease-in-out;
+}
 
 
 
@@ -9,6 +44,13 @@ header {
     text-align: center;
 }
   
+/*contact section*/
+#Contact {
+    background : url("../images/pexels-pixabay-207456.jpg") no-repeat center center/cover;
+    padding: 40px 0;
+    text-align: center;
+}
+
 
 /* hero section */
 #hero {
@@ -16,6 +58,7 @@ header {
     width: 100%;
     background: url("../images/irish83-sxwRpLJTuXc-unsplash.jpg") no-repeat center center/cover;
     position: relative;
+    background-position: center;
 }
 
 #cover-text {
