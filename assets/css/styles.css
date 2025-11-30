@@ -2,21 +2,56 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Macondo&display=swap');
 
 /* css variables */
-:root
+:root {
+    --primary-font: 'Inter', Verdana, sans-serif;
+    --secondary-font: 'Macondo', cursive, Arial;
+    --banana-cream-color: #F5E960;
+    --cotton-candy-color: #F49097;
+    --mauve-color: #DFB2F4;
+    --ghost-white-color: #F2F5FF;
+    --turquoise-color: #55D6C2;
+    
+}
 
-#777B82
-#3E3E42
-#35393C
-#254740
+/*Global Styles*/
+body {
+    font-family: var(--primary-font);
+    background-color: var(--banana-cream-color);
+}
+   
+
 
 /* main contianer to hold navbar*/
 .main-container {
+    background-color: var(--banana-cream-color);
     padding-top: 70px;
 }
 
-/*weird horizontal scroll on index fix*/
-html, body {
-  overflow-x: hidden;
+/*navbar*/
+.navbar {
+    background-color: var(--banana-cream-color);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+/*navbar styles*/
+.navbar-nav {
+    font-family: var(--primary-font);
+    font-size: 1.2rem;
+    color: #3a3a3a;
+}
+
+/* navbar brand styles */
+.navbar-brand {
+    font-family: var(--secondary-font);
+    font-size: 1.8rem;
+    color: var(--cotton-candy-color);
+}
+
+/* nav styles */
+.navbar-nav {
+    background-color: var(--ghost-white-color);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 /* navitem hover effect */
@@ -36,20 +71,8 @@ html, body {
 
 
 
-/* header */
-header {
-    background image: url("../images/pexels-pixabay-207456.jpg") no-repeat center center/cover;
-   
-    padding: 60px 0;
-    text-align: center;
-}
+
   
-/*contact section*/
-#Contact {
-    background : url("../images/pexels-pixabay-207456.jpg") no-repeat center center/cover;
-    padding: 40px 0;
-    text-align: center;
-}
 
 
 /* hero section */
