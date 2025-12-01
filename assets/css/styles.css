@@ -46,7 +46,7 @@ body {
 .navbar-brand {
     font-family: var(--secondary-font);
     font-size: 1.8rem;
-    color: var(--cotton-candy-color);
+    color: black;
    
 }
 
@@ -63,7 +63,11 @@ body {
     border-radius: 5px;
 }
 
-
+/*navbar brand hover effect */
+.navbar-brand:hover {
+    color: #f16d6b;
+    transition: color 0.3s ease-in-out;
+}
 
 /* hero section */
 #hero {
@@ -93,6 +97,34 @@ body {
     color: #ffffff;
 }
 
+/*cards section in benefits*/
+.card {
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+
+.card-body-p1  {
+    
+    border: none;
+    
+    padding-bottom: 8px;
+}
+
+
+.card-body-m  {
+    
+    border: none;
+    
+    padding: 4px 0;
+}
+
+.card-body-s  {
+    
+    border: none;
+    
+    padding-top: 8px;
+}
 /* success page styles */
 #success {
     background-color: var(--cotton-candy-color);
