@@ -22,9 +22,6 @@ body {
 }
 
 
-   
-
-
 /* main contianer to hold navbar*/
 .main-container {
     background-color: var(--banana-cream-color);
@@ -78,6 +75,7 @@ body {
     
 }
 
+/* cover text styles */
 #cover-text {
     /*final rgba value sets the opacity so it is semi-transparent.*/
     /*background-color: rgba(241, 109, 107, 0.7);*/
@@ -94,6 +92,7 @@ body {
 #cover-text > h2, #cover-text > h3 {
     color: #ffffff;
 }
+
 /* success page styles */
 #success {
     background-color: var(--cotton-candy-color);
