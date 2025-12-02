@@ -76,6 +76,7 @@ body {
     background: url("../images/irish83-sxwRpLJTuXc-unsplash.jpg") no-repeat center center/cover;
     position: relative;
     background-position: center;
+    margin-top: 5px;
     
 }
 
@@ -125,6 +126,14 @@ body {
     
     padding-top: 8px;
 }
+
+/* carousel styles */
+.carousel-item img {
+    
+    object-fit: cover;
+}
+
+
 /* success page styles */
 #success {
     background-color: var(--cotton-candy-color);

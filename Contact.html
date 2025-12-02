@@ -48,7 +48,7 @@
         <div class="container">
             <div class="row">
                 <div  class="col-12 text-center my-5">
-                    <img src="assets/images/pexels-pixabay-207456.jpg" alt="Contact Us"  style="max-width: 100%;">
+                    <img src="assets/images/pexels-cottonbro-10667753.jpg" alt="Contact Us" style="max-width: 100%;" >
                 </div>
             </div>
         </div>
@@ -143,6 +143,45 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+   
+     <!-- Save/restore contact form state to help back/forward cache restoration -->
+    <script>
+        (function () {
+            const STORAGE_KEY = 'contact-form-state-v1';
+            const form = document.querySelector('form.custom-form');
+            if (!form) return;
+
+            const inputs = Array.from(form.querySelectorAll('input, textarea'));
+
+            // Restore state when page is shown (including bfcache restores)
+            window.addEventListener('pageshow', (event) => {
+                try {
+                    const raw = sessionStorage.getItem(STORAGE_KEY);
+                    if (!raw) return;
+                    const state = JSON.parse(raw);
+                    inputs.forEach(i => {
+                        if (state.hasOwnProperty(i.name)) i.value = state[i.name] || '';
+                    });
+                } catch (e) {
+                    console.error('Restore contact form state failed', e);
+                }
+            });
+
+            // Save on input/change
+            const save = () => {
+                const state = {};
+                inputs.forEach(i => state[i.name] = i.value);
+                try { sessionStorage.setItem(STORAGE_KEY, JSON.stringify(state)); } catch (e) { }
+            };
+
+            inputs.forEach(i => i.addEventListener('input', save, { passive: true }));
+
+            // Clear saved state on successful submit
+            form.addEventListener('submit', () => {
+                try { sessionStorage.removeItem(STORAGE_KEY); } catch (e) {}
+            });
+        })();
+    </script>    
 </body>
 </html>
 
