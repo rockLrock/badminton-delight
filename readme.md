@@ -54,7 +54,7 @@ Badminton Delight is a community of badminton enthusiasts based in London Regent
   ![About page screenshot another](assets/readme-imgs/about-sc-us.PNG)
 
   ![About page screenshot mobile](assets/readme-imgs/about-sc-bh-m.PNG)
-  ![About page screenshot another mobile](assets/readme-imgs/about-sc-us-m.PNG)
+  ![About page screenshot another mobile](assets/readme-imgs/about-us-m.PNG)
 
 - `Contact.html` (form):
 
