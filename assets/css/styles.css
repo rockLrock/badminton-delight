@@ -138,7 +138,7 @@ body {
 #success {
     background-color: var(--cotton-candy-color);
     
-    margin: 50px auto;
+    margin-bottom: 800px;
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -192,6 +192,8 @@ footer {
     transition: all 0.3s ease-in-out;
 }
 
+
+
 /* Media queries */
 
 /* Medium devices (tablets, 768px and up) */
@@ -225,3 +227,5 @@ footer {
         min-height: 195px;
     }
 }
+
+
