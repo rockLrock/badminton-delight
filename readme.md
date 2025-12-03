@@ -15,7 +15,7 @@ https://rocklrock.github.io/badminton-delight/
 
 # Badminton Delight – A Local Badminton Website
 
-![screenshot of homepage ](assets/readme-imgs/Home-sc.png)
+![screenshot of homepage ](assets/readme-imgs/Home-sc.PNG)
 Badminton Delight is a community of badminton enthusiasts based in London Regent's Park. We are dedicated to promoting the sport of badminton, fostering a friendly and inclusive environment for players of all skill levels.
 
 
