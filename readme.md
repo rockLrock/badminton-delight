@@ -126,7 +126,7 @@ Badminton Delight is a community of badminton enthusiasts based in London Regent
   - Accessibility: 100
   - Best Practices: 100
   - SEO: 100
-  ![lighthouse screenshot](assets/readme-imgs/lighthouse-sc.png)
+  ![lighthouse screenshot](assets/readme-imgs/lighthouse-sc.PNG)
   These scores reflect a well-optimized and accessible site. Performance may vary slightly across networks or browsers.
 
 ## Deployment Procedure
